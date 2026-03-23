@@ -2,6 +2,10 @@
 
 Repositorio publico de portafolio para presentar una suite administrativa web en Java sin publicar el codigo completo del sistema.
 
+![Vista demostrativa del sistema](assets/showcase-demo.svg)
+
+Ilustracion de showcase basada en la estructura funcional real del proyecto.
+
 ## Resumen
 
 Aplicacion web monolitica en Java para operacion administrativa multi-rol. Por su estructura funcional integra ventas, inventario, laboratorio, reportes, usuarios, clientes y control de sucursales.
