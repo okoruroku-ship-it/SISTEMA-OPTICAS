@@ -1,13 +1,14 @@
-# SISTEMA OPTICAS Showcase
+# proyecMexico Showcase
 
-Repositorio publico de portafolio para presentar una suite administrativa web en Java sin publicar el codigo completo del sistema.
+Repositorio publico de portafolio para presentar un ERP operativo de concretera sin publicar el codigo completo del sistema.
 
+![Captura real del sistema](assets/showcase-real.png)
 
-Ilustracion de showcase basada en la estructura funcional real del proyecto.
+Captura real de una interfaz del ERP tomada desde el proyecto local.
 
 ## Resumen
 
-Aplicacion web monolitica en Java para operacion administrativa multi-rol. Por su estructura funcional integra ventas, inventario, laboratorio, reportes, usuarios, clientes y control de sucursales.
+Aplicacion web monolitica en Java orientada a operacion de planta concretera. Integra costos, insumos, formulas por m3, historiales de precio, control operativo y modulos administrativos conectados entre si.
 
 ## Tecnologias detectadas
 
@@ -20,24 +21,23 @@ Aplicacion web monolitica en Java para operacion administrativa multi-rol. Por s
 ## Funcionalidades destacadas
 
 - autenticacion y sesiones por rol
-- alta de sucursales, usuarios y catalogos
-- clientes, ventas y abonos
-- historial clinico y graduaciones
-- ordenes de laboratorio y seguimiento
-- inventario de mostrador y almacen
-- exportacion a Excel y generacion de tickets
-- solicitudes especiales y flujos de autorizacion
+- costos operativos y costo por metro cubico
+- formulas, materiales e insumos por planta
+- historiales de precio y seguimiento de variaciones
+- clientes, ventas, pedidos y remisiones
+- inventario, laboratorio, logistica y reportes
+- exportacion documental y flujos operativos multi modulo
 
 ## Arquitectura funcional
 
-- controladores por acciones `Tipo`
-- servlets para autenticacion, reportes y operaciones de negocio
-- clases de dominio para clientes, ventas, sucursales, inventario y laboratorio
-- frontend legacy conectado por Ajax
+- controladores y modulos web en Java
+- capas para operaciones administrativas y operativas de planta
+- frontend conectado con Ajax y vistas modulares
+- estructuras de dominio para ventas, materiales, costos, remisiones y logistica
 
 ## Valor profesional
 
-Este proyecto demuestra trabajo sobre sistemas legacy grandes, con multiples modulos operativos y fuerte acoplamiento entre frontend, negocio y datos.
+Este proyecto demuestra trabajo sobre un sistema ERP especializado, con logica de negocio real para planta concretera y multiples dominios conectados dentro de una sola operacion.
 
 ## Alcance publico
 
