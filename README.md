@@ -1,8 +1,7 @@
-# proyecMexico Showcase
+# SISTEMA OPTICAS Showcase
 
 Repositorio publico de portafolio para presentar una suite administrativa web en Java sin publicar el codigo completo del sistema.
 
-![Vista demostrativa del sistema](assets/showcase-demo.svg)
 
 Ilustracion de showcase basada en la estructura funcional real del proyecto.
 
